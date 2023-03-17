@@ -1,4 +1,4 @@
-uuid,patient_id,case,tumor,risk
+uuid,patient_id,case,cancer,bcc_risk
 8adb6e80e34d373bbf04ba09714ac085,3735,101,0,0
 8f9ed5e19d7638ebbe0589e8259d527f,195,101,0,0
 48a63d4835c130e3a3745c61682ff980,4203,101,1,1

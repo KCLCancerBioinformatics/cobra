@@ -1,0 +1,22 @@
+cobra
+├── annotations/                        * manual outlined annotations for the whole-slide images
+│   └── wave2_release.txt
+├── data/
+│   ├── biopsies/
+│   │   ├── images/                     * whole-slide images
+│   │   │   └── <file_uid>.tif
+│   │   └── tissue_masks/               * tissue-background masks
+│   │       └── <file_uid>.tif
+│   └── excisions/
+│       └── wave2_release.txt
+├── folds/                              * folds used for publications, see readme for details.
+│   └── bcc_risk/
+│       ├── readme.txt
+│       ├── test.csv
+│       ├── train.csv
+│       └── val.csv
+├── labels/                             * slide-level labels for the whole-slide images
+│   └── bcc_risk.csv
+├── LICENSE
+├── README.md
+└──  readme.txt
